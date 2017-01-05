@@ -1,0 +1,12 @@
+$TTL 600
+@ IN SOA bcetstool.com. admin.bcetstool.com. (
+                              2         ; Serial
+                         604800         ; Refresh
+                          86400         ; Retry
+                        2419200         ; Expire
+                         604800 )       ; Negative Cache TTL
+;
+@           IN  NS   ns.bcetstool.com.
+ns          IN  A    180.76.160.180
+*.cdndetect IN  A    180.76.160.180
+zhujiA      IN  A    192.168.0.3
