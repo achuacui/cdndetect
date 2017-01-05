@@ -1,0 +1,2 @@
+# cdndetect
+CDN detect tool
